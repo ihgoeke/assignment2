@@ -7,21 +7,66 @@
 </head>
 <body>
   <header>
-   <nav class="navtop">
-     <ul class="navtop">
-        <li> Find Location
-       </li>
-        <li> Order Now
+    <img id="img1" src="logo.png">
+    <nav>
+      <ul class="topnav">
+          <li> <a href="http://www.fiveguys.com/en/order-online"> Find Location </a>
         </li>
-       <li> My Account
-       </li>
-     </ul>
-   </nav>
+          <li> <a href="https://order.chipotle.com/"> Order Now </a>
+          </li>
+        <li> <a href="http://www.aviato.com/"> My Account </a>
+        </li>
+      </ul>
+    </nav>
   </header>
-
+  <br>
+    <h1 id="welc"> Welcome to Dessert Central! </h1>
+    <p class="welcome"> We believe that anybody fortunate enough to <br> own a computer is also entitled to <br>the best dessert we can make! <br> Tell us what you want!
+    </p>
     <br>
-    <p> Welcome! <br> We believe that anybody fortunate enough to <br> own a computer is also entitled to <br>
-      the best dessert we can make! <br> Tell us what you want! </p>
+    <br>
+      <form name="dessert" method="post" action="">
+        <fieldset>
+          <legend> Which Ice Cream? </legend>
+          <input type="radio" name="flavor" id="flavor1" value="vanilla">
+          <label for="flavor1"> Vanilla!
+          </label>
+          <input type="radio" name="flavor" id="flavor2" value="chocolate">
+          <label for="flavor2"> Chocolate!
+          </label>
+          <input type="radio" name="flavor" id="flavor3" value="cherry">
+          <label for="flavor3"> Cherry!
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend> Which Toppings?
+          </legend>
+          <input type="checkbox" name="topping" id="topping1" value="cookie crumbles">
+          <label for="topping1"> Cookie Crumbles
+          </label>
+          <input type="checkbox" name="topping" id="topping2" value="flavored sprinkles">
+          <label for="topping2"> Flavored Sprinkles
+          </label>
+          <input type="checkbox" name="topping" id="topping3" value="chocolate syrup">
+          <label for="topping3"> Chocolate Syrup
+          </label>
+        </fieldset>
+        <input type="submit" value="Submit">
+      </form>
+      <br><br>
+    <footer>
+      <div class="container">
+        <h4> Dessert Central Incorporated </h4> <br>
+        <ul>
+         <li><a href="https://www.facebook.com">Facebook! </a>
+           </li>
+         <li><a href="https://www.instagram.com"> Follow us on Instagram! </a>
+         </li>
+          <li><a href="https://www.linkedin.com"> Connect with us on LinkedIn! </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
 
 
 </body>
